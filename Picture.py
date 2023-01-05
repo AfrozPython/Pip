@@ -8,7 +8,7 @@ Created on Thu Jan  5 18:42:26 2023
 
 import streamlit as st
 # Video Upload
-video_file = open('C:/Users/Appu/Desktop/Streamlit Test/Karina3.png', 'rb')
+video_file = open('Karina3.png', 'rb')
 video_bytes = video_file.read()
 st.image(video_bytes)
 
